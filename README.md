@@ -1,0 +1,1 @@
+I created a dashboard based on revenue from 2017 to 2022 from a publicly available dataset from Kaggle (https://www.kaggle.com/datasets/raphaelpuziol/department-store-sales-dataset/data). I used SQL Server Management Studio and used T-SQL to help me create the dashboard.
