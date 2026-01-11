@@ -1,0 +1,8 @@
+SELECT Department, SUM(CASE When Date >= '2017-01-01' AND Date <= '2017-12-31' Then Revenue else 0 End) AS Total_Revenue_2017,
+SUM(CASE When Date >= '2018-01-01' AND Date <= '2018-12-31' Then Revenue else 0 End) AS Total_Revenue_2018,
+SUM(CASE When Date >= '2019-01-01' AND Date <= '2019-12-31' Then Revenue else 0 End) AS Total_Revenue_2019,
+SUM(CASE When Date >= '2020-01-01' AND Date <= '2020-12-31' Then Revenue else 0 End) AS Total_Revenue_2020,
+SUM(CASE When Date >= '2021-01-01' AND Date <= '2021-12-31' Then Revenue else 0 End) AS Total_Revenue_2021,
+SUM(CASE When Date >= '2022-01-01' AND Date <= '2022-12-31' Then Revenue else 0 End) AS Total_Revenue_2022
+FROM dbo.department_store_dataset$
+Group by Department
