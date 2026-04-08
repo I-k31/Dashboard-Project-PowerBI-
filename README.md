@@ -1,7 +1,7 @@
 Department Store Revenue Analysis (2017–2022)
 Overview:
 This project analyzes 6 years of revenue data from a department store dataset sourced from Kaggle. Using T-SQL to query and aggregate the data, and Power BI to visualize it, the goal was to identify revenue trends across departments over time.
-Dataset: Department Store Sales Dataset — Kaggle
+Dataset: Department Store Sales Dataset: https://www.kaggle.com/datasets/raphaelpuziol/department-store-sales-dataset/data — Kaggle
 Tools
 
 SQL Server Management Studio (SSMS) — data querying and aggregation
