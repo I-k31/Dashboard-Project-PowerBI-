@@ -5,7 +5,9 @@ Dataset: Department Store Sales Dataset: https://www.kaggle.com/datasets/raphael
 Tools
 
 SQL Server Management Studio (SSMS) — data querying and aggregation
+
 T-SQL — conditional aggregation to pivot revenue by year
+
 Power BI — dashboard creation and visualization
 
 Methodology:
@@ -25,5 +27,5 @@ Papelaria (Stationery) and Acessórios (Accessories) were the lowest-revenue dep
 Dashboard
 The Power BI dashboard includes:
 
-A line chart comparing revenue across all 7 departments by year
-KPI cards displaying total revenue for each year (2017–2022)
+- A line chart comparing revenue across all 7 departments by year
+- KPI cards displaying total revenue for each year (2017–2022)
